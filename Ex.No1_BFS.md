@@ -1,19 +1,19 @@
-Ex.No: 1 Implementation of Breadth First Search
-DATE: 18/10/2023
-REGISTER NUMBER : 212221040166
-AIM:
-To write a python program to implement Breadth first Search.
+# Ex.No: 1  Implementation of Breadth First Search 
+### DATE:  05/08/2023                                                                     
+### REGISTER NUMBER : 212221043005
+### AIM: 
+To write a python program to implement Breadth first Search. 
+### Algorithm:
+1. Start the program
+2. Create the graph by using adjacency list representation
+3. Define a function bfs and take the set “visited” is empty and “queue” is empty
+4. Search start with initial node and add the node to visited and queue.
+5. For each neighbor node, check node is not in visited then add node to visited and queue list.
+6.  Creating loop to print the visited node.
+7.   Call the bfs function by passing arguments visited, graph and starting node.
+8.   Stop the program.
+### Program:
 
-Algorithm:
-Start the program
-Create the graph by using adjacency list representation
-Define a function bfs and take the set “visited” is empty and “queue” is empty
-Search start with initial node and add the node to visited and queue.
-For each neighbor node, check node is not in visited then add node to visited and queue list.
-Creating loop to print the visited node.
-Call the bfs function by passing arguments visited, graph and starting node.
-Stop the program.
-Program:
 graph = { 
   '5' : ['3','7'], 
   '3' : ['2', '4'], 
@@ -39,8 +39,14 @@ def bfs(visited, graph, node): #function for BFS
 # Driver Code 
 print("Following is the Breadth-First Search") 
 bfs(visited, graph, '5')    # function calling
-Output:
-image
 
-Result:
+
+### Output:
+![image](https://github.com/Sudhindev/AI_Lab_2023-24/assets/130021386/24d41a8c-e8b1-4469-82c0-7433aaaaad0a)
+
+
+
+
+
+### Result:
 Thus the breadth first search order was found sucessfully.
